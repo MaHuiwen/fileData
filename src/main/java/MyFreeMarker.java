@@ -18,7 +18,7 @@ public class MyFreeMarker {
 
         try {
             //设置模板的根目录
-            config.setDirectoryForTemplateLoading(new File("F:\\project\\file\\test_file"));
+            config.setDirectoryForTemplateLoading(new File("F:\\project\\fileData\\test_file"));
         } catch (IOException e) {
             e.printStackTrace();
         }

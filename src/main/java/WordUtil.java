@@ -23,12 +23,13 @@ public class WordUtil {
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("department", "java");
         map.put("name", "mhw");
-        map.put("reason", "I have a cold." +
-                "So I want to go to the hospital........................" +
-                "................................");
+        map.put("reason", "测试测试测试测试测试测试<w:p></w:p>" +
+                "测试测试测试测试测试测试<w:p></w:p>" +
+                "测试测试测试测试测试测试<w:p></w:p>" +
+                "测试测试测试测试测试测试<w:p></w:p>");
         map.put("time", "5");
-        String srcPath = "test.xml";
-        String desPth = "F:\\project\\file\\test_file\\out.docx";
+        String srcPath = "test.docx";
+        String desPth = "F:\\project\\fileData\\test_file\\out.docx";
 
         w.createWord(map, srcPath, desPth);
 
